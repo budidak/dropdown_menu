@@ -100,3 +100,14 @@ body {
   font-size: 5rem;
 }
 
+/* Media Queries */
+@media (max-width: 600px) {
+  #navbar ul li {
+    display: block; 
+  }
+
+  #navbar ul li:hover ul {
+    width: 100%;
+    position: relative;
+  }
+}
