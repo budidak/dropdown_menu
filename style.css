@@ -83,3 +83,20 @@ body {
   background-color: chocolate;
 }
 
+/* Showcase */
+#showcase {
+  display: flex;
+  flex-direction: column;
+  height: 30rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 3.2rem;
+  background-color: coral;
+}
+
+#showcase h1 {
+  color: #fff;
+  font-size: 5rem;
+}
+
