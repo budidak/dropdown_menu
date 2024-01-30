@@ -31,3 +31,18 @@ body {
   color: #333;
 }
 
+/* Hide nested ul by default */
+#navbar ul li ul {
+  display: none;
+}
+
+#navbar ul li:hover {
+  cursor: pointer;
+  background-color: coral;
+  color: #fff;
+}
+
+#navbar ul li:hover a {
+  color: #fff;
+}
+
